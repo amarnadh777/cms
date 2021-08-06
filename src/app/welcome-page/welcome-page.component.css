@@ -1,0 +1,93 @@
+.grid
+{
+    position: relative;
+     
+    display: grid;
+    grid-template-columns: auto auto auto ;
+grid-gap: 10px;
+column-gap: 2px;
+
+}
+
+.grid-container {
+    position: relative;
+    top: 280px;
+    right: 280px;
+   
+background-color: #C4C4C4;
+text-align: center;
+padding: 20px 0;
+
+}
+.t{
+position: absolute;
+width: 258px;
+height: 84px;
+left: 219px;
+top: 18px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+}
+.on{
+
+position: absolute;
+width: 258px;
+height: 84px;
+left: 219px;
+top: -30px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+}
+.wonder
+{
+    text-align: center;
+position: relative;
+ top: 280px;
+ left: 20px;
+width: 500px;
+height: 40px;
+left: 52px;
+background: #C4C4C4;
+}
+.visy
+{
+    text-align: center;
+    margin: 0px;
+position: relative;
+
+ top: 280px;
+ right: 180px;
+
+ 
+width: 100px;
+height: 40px;
+
+background: #C4C4C4;
+}
+.vist
+{
+    text-align: center;
+    margin: 0px;
+position: relative;
+ top: 280px;
+ right: 180px;
+width: 100px;
+height: 40px;
+
+background: #C4C4C4;
+}
+.visy:hover ,.vist:hover,.wonder:hover,.grid-container:hover{
+    background-color: cadetblue;
+}

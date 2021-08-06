@@ -1,0 +1,30 @@
+.banner
+{  
+
+    position: absolute;
+top: 30px;
+    left: 20%;
+   
+    background-color: chartreuse;
+    width: 1090px;
+    height: 200px;
+   
+
+
+}
+.img
+{
+    position: relative;
+    left: 300px;
+    bottom: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: cornsilk;
+
+
+}
+.btn
+{
+    position: relative;
+    top: 112px;
+}
